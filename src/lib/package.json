@@ -1,0 +1,32 @@
+{
+  "name": "ngx-credit-card",
+  "author": {
+    "name": "laxersnine (Davis Yang)",
+    "email": "laxersnine@gmail.com",
+    "url": "https://github.com/laxersnine"
+  },
+  "bugs": {
+    "url": "https://github.com/laxersnine/ngx-credit-card/issues"
+  },
+  "description": "Angular wrapper for card.js https://github.com/jessepollak/card",
+  "homepage": "https://github.com/laxersnine/ngx-credit-card",
+  "keywords": [
+    "angular",
+    "credit card",
+    "card",
+    "ui"
+  ],
+  "repository": {
+    "url": "git+https://github.com/laxersnine/ngx-credit-card",
+    "type": "git"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/core": "^4.0.0"
+  },
+  "dependencies": {
+    "card": "^2.4.0"
+  }
+}

@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+<div #container></div>
+
+<form [creditCard]="container"
+      [cardWidth]="360"
+      [numberInput]="number"
+      [nameInput]="name"
+      [expiryInput]="expiry"
+      [cvcInput]="cvc"
+      [debugMode]="true"
+      [formatting]="true">
+  <input type="text" #number/>
+  <input type="text" #name/>
+  <input type="text" #expiry/>
+  <input type="text" #cvc/>
+</form>
